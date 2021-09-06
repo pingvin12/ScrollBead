@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">scrollbead</string>
+    <string name="tipp_lab">
+        "Adj meg kérlek egy számot a tippeléshez! \n"
+
+    </string>
+    <string name="action_settings">Beállítások</string>
+    <string name="action_exit">Kilépés</string>
+    <string name="tippbtn_text">Tipp</string>
+    <string name="point_txt">"Pontok: "</string>
+    <string name="item_about">Rólam</string>
+    <string name="elementcount">Listának elemeinek száma:</string>
+    <string name="surrenderbtn_txt">Feladom</string>
+    <string name="about_me">Készítette: Fényes József</string>
+    <string name="no_options">Nincsenek beállítások</string>
+    <string name="gaveuptitle">Feladtad!</string>
+    <string name="gaveupmsg">Ezek voltak még a listában:</string>
+    <string name="youwin">Nyertél a játékban!</string>
+    <string name="listcount">Ennyi elem van még a listában: </string>
+    <string name="about">Rólam</string>
+    <string name="settings">Beállítások</string>
+    <string name="exit">Kilépés</string>
+</resources>

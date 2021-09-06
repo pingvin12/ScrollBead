@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/tipp_lab" />
+
+       <NumberPicker
+           android:id="@+id/curnumberid"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           />
+       <Button
+           android:id="@+id/tippbtn"
+           android:layout_width="wrap_content"
+           android:layout_height="65dp"
+           android:onClick="doTipp"
+           android:text="@string/tippbtn_text"
+            />
+
+   <TextView
+       android:id="@+id/pointtxtid"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/point_txt" />
+
+
+       <TextView
+           android:id="@+id/countofelements"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/elementcount" />
+
+       <Button
+           android:id="@+id/surrenderbtn"
+           android:layout_width="wrap_content"
+           android:layout_height="65dp"
+           android:onClick="doSurrender"
+           android:text="@string/surrenderbtn_txt"
+           />
+
+   </TableLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
